@@ -1,5 +1,35 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+body
+  .center {
+  text-align: center;
+  width: 50%;
+  margin: auto;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+nav
+  .center {
+  text-align: center;
+  border: px solid rgba(46, 49, 46, 0.377);
+} 
+
+figcaption
+  .center {
+  font-size: smaller;
+}
+
+featured-property p
+  .center {
+    width: 800px;
+  }
+
+details div{
+  float: left;
+  width: 25%;
+}
+
